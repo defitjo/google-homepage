@@ -1,0 +1,142 @@
+.header, #footer {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	padding: 5px;
+}
+
+li {
+	display: inline;
+}
+
+.header-right {
+	float: right;
+}
+
+.header-left {
+	float: left;
+	margin-left: -40px;
+	padding-right: 40px;
+}
+
+a {
+	padding: 8px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#apps {
+  display: inline-block;
+  padding: 0px 10px 0px 0px; 
+  height: 23px;
+  width: 23px;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -130px -42px;
+  margin-top: -3px;
+  opacity: .55;
+}
+
+#sign {
+	font-weight: bold;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background: #4285f4;
+	color: white;
+	text-decoration: none;
+	cursor: default;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
+
+#body {
+	padding-top: 125px;
+	padding-bottom: 183px;
+}
+
+#body img {
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	width: 272px;
+
+}
+
+#text-field {
+	display: block;
+	width: 600px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border: 1px solid #d9d9d9;
+	font-size: 18px;
+}
+
+#text-field:hover {
+	border-color: #b9b9b9;
+}
+
+#form-buttons {
+	display: block;
+	text-align: center;
+}
+
+#form-buttons input {
+	font: bold 13px Arial, sans-serif;
+	color: #757575;
+
+	border: 1px solid #ededed;
+	border-radius: 2px;
+	background: #f0f0f0;
+
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f1f1f1));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+	-webkit-border-radius: 2px;
+	-webkit-user-select: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+
+	padding: 10px 15px;
+}
+
+#form-buttons input:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f1f1f1));
+	background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-color: #f8f8f8;
+	background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+	background-image: -o-linear-gradient(top, #f8f8f8, #f1f1f1);
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #222
+}
+
+.footer-left {
+	float: left;
+	margin-left: -40px;
+	padding-right: 40px;
+}
+
+
+.footer-right {
+	float: right;
+}
+
+#footer {
+	height: 43px;
+	background: #f2f2f2;
+	margin-top: 45px;
+}
+
+#footer a {
+	color: #616161
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
